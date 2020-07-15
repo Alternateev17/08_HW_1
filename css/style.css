@@ -30,11 +30,11 @@
 }
 
 .row-pad {
-    padding-top: 80px;
+    padding-top: 81px;
 }
 
 .row-pad-1 {
-    padding-top: 30px;
+    padding-top: 26px;
 }
 
 
@@ -42,7 +42,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 105px;
+    padding-top: 109px;
 }
 
 .btn {
@@ -51,13 +51,18 @@
     font-size: 14px;
     line-height: 16px;
     text-transform: uppercase;
-    padding: 17px 62px;
+    padding: 18px 62px;
     outline: none;
     border: 1px solid #2C4058;
     background: #fff;
 }
 
 .btn:focus {
+    background-color: #2C4058;
+}
+
+.btn:hover {
+    cursor: pointer;
     background-color: #2C4058;
 }
 
